@@ -1,0 +1,20 @@
+[Course]
+Course_Creator=SkillSoft
+Course_System=SkillSoft Development
+Course_Title=Configuring and Troubleshooting Windows Vista Security
+Course_ID=mv_mvet_a03_it_enus
+Level=1
+Max_Fields_CST=2
+Total_AUs=1
+Total_Blocks=0
+Version=2.2
+
+
+[Course_Behavior]
+Max_Normal=99
+
+
+[Course_Description]
+Course_Description=Microsoft Windows Vista provides enhanced security features to help protect computers from malicious attacks, spyware, and other unwanted software that can be installed on your system when it is connected to the Internet. Vista also ensures that computers are kept up to date by automatically installing the latest security patches and updates. This course discusses how to secure Internet Explorer, and configure Windows Firewall and Windows Defender to secure computers. It also explains how to keep computer security up to date using Windows Update and Windows Server Update Services.
+TargetAudience=Support personnel supporting Windows Vista; technical professionals
+Duration=03:00

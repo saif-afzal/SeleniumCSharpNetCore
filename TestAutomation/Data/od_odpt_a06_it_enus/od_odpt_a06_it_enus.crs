@@ -1,0 +1,23 @@
+[Course]
+Course_Creator=SkillSoft
+Course_System=SkillSoft Development
+Course_Title=Oracle Database 11g: Shared Pool and Buffer Cache Tuning
+Course_ID=od_odpt_a06_it_enus
+Level=1
+Max_Fields_CST=2
+Total_AUs=1
+Total_Blocks=0
+Version=2.2
+
+
+[Course_Behavior]
+Max_Normal=99
+
+
+[Course_Description]
+Course_Description=The buffer cache is an extremely important component for the performance, scalability, and reliability of the database. This course demonstrates how to identify the symptoms that indicate a buffer cache problem and how to use the various methods available to resolve common performance issues related to the buffer cache. It also discusses the sizing of the buffer cache and using views to analyze the buffer cache, and briefly covers multiple pool management.
+
+The fundamental purpose of the shared pool is to serve as a metadata cache. This course explains how to diagnose and resolve hard and soft-parsing problems and shared pool fragmentation issues. It also discusses various methods of tuning the shared pool, including sizing the shared pool, sizing the reserved area of the shared pool, keeping objects in the shared pool, and managing the results cache.
+
+TargetAudience=A range of in-training or established IT professionals; Database Administrators; Support Engineers; Technical Consultants.
+Duration=02:00

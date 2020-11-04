@@ -1,0 +1,22 @@
+[Course]
+Course_Creator=SkillSoft
+Course_System=SkillSoft Development
+Course_Title=Oracle Database 11g: Performance Tuning Methodology and Tools
+Course_ID=od_odpt_a01_it_enus
+Level=1
+Max_Fields_CST=2
+Total_AUs=1
+Total_Blocks=0
+Version=2.2
+
+
+[Course_Behavior]
+Max_Normal=99
+
+
+[Course_Description]
+Course_Description=Oracle Database 11g provides a variety of tools that can be used for performance tuning in an Oracle database environment. These tools can be used to diagnose and tune common SQL-related and instance-related problems as well as proactively tune an Oracle database. One such tool – Enterprise Manager – can be used to monitor an Oracle database using the many performance-related pages it provides via a user-friendly graphical user interface.
+
+This course provides an introduction to performance tuning methodologies, effective tuning goals, and the types of performance data that can be gathered by diagnostic tools available in Oracle Database 11g. It also demonstrates how to use Time Model and Enterprise Manager to diagnose performance issues, and discusses using the various dynamic performance views (V$ views) to perform statistical analysis when diagnosing problems. The use of alert logs, user trace files, and wait events analysis are also explored in this introduction to performance tuning. This course helps to prepare you for the Oracle Database 11g: Performance Tuning exam which counts towards the Oracle Database 11g Performance Tuning Certified Expert designation.
+TargetAudience=A range of in-training or established IT professionals; Database Administrators; Support Engineers; Technical Consultants.
+Duration=01:30

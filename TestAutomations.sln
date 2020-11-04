@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutomation", "TestAutomation\TestAutomation.csproj", "{ED671C9E-AE46-4AF5-A436-50964EA39549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A45A4407-1C13-441B-83ED-689B1F9A053A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_2", "20_1\20_2.csproj", "{744F7029-8A25-43C9-811F-330658DF938B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Headless|Any CPU = Headless|Any CPU
+		Headless|x86 = Headless|x86
+		Parallel|Any CPU = Parallel|Any CPU
+		Parallel|x86 = Parallel|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Debug|Any CPU.Build.0 = Debug|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Debug|x86.ActiveCfg = Debug|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Debug|x86.Build.0 = Debug|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Headless|Any CPU.ActiveCfg = Headless|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Headless|x86.ActiveCfg = Headless|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Headless|x86.Build.0 = Headless|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Parallel|Any CPU.ActiveCfg = Parallel|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Parallel|x86.ActiveCfg = Parallel|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Parallel|x86.Build.0 = Parallel|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Release|Any CPU.ActiveCfg = Release|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Release|x86.ActiveCfg = Release|x86
+		{ED671C9E-AE46-4AF5-A436-50964EA39549}.Release|x86.Build.0 = Release|x86
+		{744F7029-8A25-43C9-811F-330658DF938B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Debug|x86.Build.0 = Debug|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Headless|Any CPU.ActiveCfg = Headless|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Headless|Any CPU.Build.0 = Headless|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Headless|x86.ActiveCfg = Headless|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Headless|x86.Build.0 = Headless|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Parallel|Any CPU.ActiveCfg = Parallel|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Parallel|Any CPU.Build.0 = Parallel|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Parallel|x86.ActiveCfg = Parallel|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Parallel|x86.Build.0 = Parallel|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Release|x86.ActiveCfg = Release|Any CPU
+		{744F7029-8A25-43C9-811F-330658DF938B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFE5181-7E15-42DF-B7FF-518AEEC0C756}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs02:8080/tfs/meridianbaseproduct
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TestAutomation\\TestAutomation.csproj
+		SccProjectName1 = TestAutomation
+		SccLocalPath1 = TestAutomation
+		SccProjectUniqueName2 = 20_1\\20_2.csproj
+		SccProjectName2 = 20_1
+		SccLocalPath2 = 20_1
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1378 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>ParallelTestingSolution.ParallelTestSmoke</title>
+  <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/cd00a5e/spark/css/style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+
+
+
+<body class="test-view  standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Extent Framework</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">16-08-2020 22:26:53</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+									<li class="user-profile dropdown dropdown-animated scale-left">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<i class="fa fa-exclamation-circle"></i>
+										</a>
+										<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>											<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																																																							<div class="dropdown-divider"></div>
+											<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+										</ul>
+									</li>
+																		                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">LoginSmoke_8597</p> 
+													<p class="duration text-sm">0h:1m:52s+200ms</p> 
+													<span class="datetime">22:27:03 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">LoginSmoke_8597</h5>
+															<span class='badge badge-success'>16-08-2020 22:27:03</span>
+															<span class='badge badge-danger'>16-08-2020 22:28:55</span>
+															<span class='badge badge-default'>0h:1m:52s+200ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:27:15</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:27:25</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:28:35</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:28:55</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Help_238</p> 
+													<p class="duration text-sm">0h:2m:58s+072ms</p> 
+													<span class="datetime">22:29:05 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">Help_238</h5>
+															<span class='badge badge-success'>16-08-2020 22:29:05</span>
+															<span class='badge badge-danger'>16-08-2020 22:32:03</span>
+															<span class='badge badge-default'>0h:2m:58s+072ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:29:15</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:29:25</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:30:35</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:30:59</td>
+				<td>
+help icon opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:32:03</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Search_6833</p> 
+													<p class="duration text-sm">0h:3m:17s+426ms</p> 
+													<span class="datetime">22:32:21 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">Search_6833</h5>
+															<span class='badge badge-success'>16-08-2020 22:32:21</span>
+															<span class='badge badge-danger'>16-08-2020 22:35:38</span>
+															<span class='badge badge-default'>0h:3m:17s+426ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:32:33</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:32:43</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:33:50</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:34:41</td>
+				<td>
+Test searched successfully from Catalog search									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:34:58</td>
+				<td>
+search record is greater than 1									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:35:11</td>
+				<td>
+open people page from common section									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:35:20</td>
+				<td>
+blank search takes place from manage users page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:35:38</td>
+				<td>
+search record is greater than 1									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:35:38</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Administration_Organization_Search_56127</p> 
+													<p class="duration text-sm">0h:2m:58s+518ms</p> 
+													<span class="datetime">22:35:51 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">Administration_Organization_Search_56127</h5>
+															<span class='badge badge-success'>16-08-2020 22:35:51</span>
+															<span class='badge badge-danger'>16-08-2020 22:38:49</span>
+															<span class='badge badge-default'>0h:2m:58s+518ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:36:03</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:36:14</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:37:20</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:38:05</td>
+				<td>
+Organization page opens									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:38:18</td>
+				<td>
+Done Blank search									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:38:49</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Careers_Manage_JobTitle_22212</p> 
+													<p class="duration text-sm">0h:1m:42s+576ms</p> 
+													<span class="datetime">22:39:07 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">Careers_Manage_JobTitle_22212</h5>
+															<span class='badge badge-success'>16-08-2020 22:39:07</span>
+															<span class='badge badge-danger'>16-08-2020 22:40:50</span>
+															<span class='badge badge-default'>0h:1m:42s+576ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:39:19</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:39:30</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:40:22</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:40:44</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.LoginSmoke_8597() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 83
+   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Careers_Manage_JobTitle_22212() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 130
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:40:44</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:40:44</td>
+				<td>
+MailSnapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:40:50</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.LoginSmoke_8597() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 83
+   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Careers_Manage_JobTitle_22212() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 130
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:40:50</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-40-44.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-40-44.png</span>
+		                <span class="file-size"> 19834Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-40-44.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-40-44.png</span>
+		                <span class="file-size"> 19834Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-40-44.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-40-44.png</span>
+		                <span class="file-size"> 19834Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Administration_HomePage_Customization_23935</p> 
+													<p class="duration text-sm">0h:2m:55s+051ms</p> 
+													<span class="datetime">22:42:04 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">Administration_HomePage_Customization_23935</h5>
+															<span class='badge badge-success'>16-08-2020 22:42:04</span>
+															<span class='badge badge-danger'>16-08-2020 22:44:59</span>
+															<span class='badge badge-default'>0h:2m:55s+051ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:42:15</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:42:25</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:43:31</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:44:39</td>
+				<td>
+opened home customization page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:44:59</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Reports_24843</p> 
+													<p class="duration text-sm">0h:4m:43s+740ms</p> 
+													<span class="datetime">22:45:08 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">Reports_24843</h5>
+															<span class='badge badge-success'>16-08-2020 22:45:08</span>
+															<span class='badge badge-danger'>16-08-2020 22:49:52</span>
+															<span class='badge badge-default'>0h:4m:43s+740ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:45:18</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:45:28</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:46:34</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:47:25</td>
+				<td>
+opened reports console from kview									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:47:35</td>
+				<td>
+Searched My									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:47:55</td>
+				<td>
+Clicked My Training Progress									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:48:04</td>
+				<td>
+Clicked Select									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:48:11</td>
+				<td>
+CLicked Run report									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:48:39</td>
+				<td>
+Clicked go button having details selected and opens details page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:49:14</td>
+				<td>
+Details page closes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:49:32</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.Reports_24843() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 169
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:49:32</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:49:32</td>
+				<td>
+MailSnapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:49:36</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.Reports_24843() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 169
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:49:36</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>22:49:52</td>
+				<td>
+Test ended with Fail   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Reports_24843() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 169									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-49-32.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-49-32.png</span>
+		                <span class="file-size"> 20865Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-49-32.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-49-32.png</span>
+		                <span class="file-size"> 20865Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-49-32.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-49-32.png</span>
+		                <span class="file-size"> 20865Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Create_SCROM_Course_7251</p> 
+													<p class="duration text-sm">0h:1m:53s+777ms</p> 
+													<span class="datetime">22:50:09 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">Create_SCROM_Course_7251</h5>
+															<span class='badge badge-success'>16-08-2020 22:50:09</span>
+															<span class='badge badge-danger'>16-08-2020 22:52:03</span>
+															<span class='badge badge-default'>0h:1m:53s+777ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:50:20</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:50:31</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:50:58</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:51:19</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.LoginSmoke_8597() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 83
+   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Create_SCROM_Course_7251() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 208
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:51:19</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:51:19</td>
+				<td>
+MailSnapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:51:25</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.LoginSmoke_8597() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 83
+   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Create_SCROM_Course_7251() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 208
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:51:25</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>22:52:03</td>
+				<td>
+Test ended with Fail   at ParallelTestingSolution.SmokeTest_20_2_Parallel.LoginSmoke_8597() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 83
+   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Create_SCROM_Course_7251() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 208									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-51-19.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-51-19.png</span>
+		                <span class="file-size"> 8184Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-51-19.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-51-19.png</span>
+		                <span class="file-size"> 8184Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-51-19.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-51-19.png</span>
+		                <span class="file-size"> 8184Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Search_SCROM_Course_26248</p> 
+													<p class="duration text-sm">0h:4m:52s+576ms</p> 
+													<span class="datetime">22:52:11 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">Search_SCROM_Course_26248</h5>
+															<span class='badge badge-success'>16-08-2020 22:52:11</span>
+															<span class='badge badge-danger'>16-08-2020 22:57:04</span>
+															<span class='badge badge-default'>0h:4m:52s+576ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:53:07</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:53:17</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:54:38</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:55:32</td>
+				<td>
+search migration									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:56:22</td>
+				<td>
+opens searched content link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:56:40</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.Search_SCROM_Course_26248() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 232
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:56:40</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:56:40</td>
+				<td>
+MailSnapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:56:48</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.Search_SCROM_Course_26248() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 232
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:56:48</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>22:57:04</td>
+				<td>
+Test ended with Fail   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Search_SCROM_Course_26248() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 232									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-56-40.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-56-40.png</span>
+		                <span class="file-size"> 88442Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-56-40.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-56-40.png</span>
+		                <span class="file-size"> 88442Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--22-56-40.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--22-56-40.png</span>
+		                <span class="file-size"> 88442Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">Delete_SCROM_Course_7438</p> 
+													<p class="duration text-sm">0h:3m:32s+458ms</p> 
+													<span class="datetime">22:57:13 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">Delete_SCROM_Course_7438</h5>
+															<span class='badge badge-success'>16-08-2020 22:57:13</span>
+															<span class='badge badge-danger'>16-08-2020 23:00:45</span>
+															<span class='badge badge-default'>0h:3m:32s+458ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:57:24</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:57:33</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:58:40</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:59:24</td>
+				<td>
+open training page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:00:02</td>
+				<td>
+search for content migration									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:00:22</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.Delete_SCROM_Course_7438() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 247
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:00:22</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:00:22</td>
+				<td>
+MailSnapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:00:29</td>
+				<td>
+at ParallelTestingSolution.SmokeTest_20_2_Parallel.Delete_SCROM_Course_7438() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 247
+  Expected: True
+  But was:  False									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:00:29</td>
+				<td>
+Snapshot below: AventStack.ExtentReports.ExtentTest									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>23:00:45</td>
+				<td>
+Test ended with Fail   at ParallelTestingSolution.SmokeTest_20_2_Parallel.Delete_SCROM_Course_7438() in C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\SmokeTest_20_2_Parallel.cs:line 247									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--23-00-22.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--23-00-22.png</span>
+		                <span class="file-size"> 46509Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--23-00-22.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--23-00-22.png</span>
+		                <span class="file-size"> 46509Kb</span>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="C:\Automation\Regression Scripts\20.2-SmokeParallel\20_1\ErrorScreenshots\16-Aug-2020\2020-16-8--23-00-22.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+		                <span class="file-name">2020-16-8--23-00-22.png</span>
+		                <span class="file-size"> 46509Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">About_the_System_Link_7662</p> 
+													<p class="duration text-sm">0h:2m:58s+100ms</p> 
+													<span class="datetime">23:00:59 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">About_the_System_Link_7662</h5>
+															<span class='badge badge-success'>16-08-2020 23:00:59</span>
+															<span class='badge badge-danger'>16-08-2020 23:03:57</span>
+															<span class='badge badge-default'>0h:2m:58s+100ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:01:12</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:01:22</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:02:29</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:03:25</td>
+				<td>
+do blank catalog search									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:03:30</td>
+				<td>
+CLick about link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:03:57</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">View_System_Certificate_35597</p> 
+													<p class="duration text-sm">0h:3m:11s+162ms</p> 
+													<span class="datetime">23:04:15 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">View_System_Certificate_35597</h5>
+															<span class='badge badge-success'>16-08-2020 23:04:15</span>
+															<span class='badge badge-danger'>16-08-2020 23:07:26</span>
+															<span class='badge badge-default'>0h:3m:11s+162ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:04:28</td>
+				<td>
+Site opens successfully									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:04:38</td>
+				<td>
+Login CLick passes									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:05:44</td>
+				<td>
+login as siteadmin successful									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:06:41</td>
+				<td>
+opens certificate page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>23:07:01</td>
+				<td>
+CLick default button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>23:07:26</td>
+				<td>
+Test ended with Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type='text/javascript'>
+	
+</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/f97b667/spark/js/script.js"></script>
+
+</body>
+
+</html>

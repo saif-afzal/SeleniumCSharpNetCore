@@ -1,0 +1,20 @@
+[Course]
+Course_Creator=SkillSoft
+Course_System=SkillSoft Development
+Course_Title=Oracle Database 11g: Metrics, Alerts, Baselines, AWR Tools, and Services
+Course_ID=od_odpt_a03_it_enus
+Level=1
+Max_Fields_CST=2
+Total_AUs=1
+Total_Blocks=0
+Version=2.2
+
+
+[Course_Behavior]
+Max_Normal=99
+
+
+[Course_Description]
+Course_Description=Metrics, alerts, baselines, and thresholds are monitoring objects that can be used to monitor and manage the performance tuning of an Oracle Database 11g environment. Automatic Workload Repository (AWR) based tools can be used to tune automatic maintenance tasks and generate and read ADDM and ASH reports. This course demonstrates how to create static and repeating baselines, compute baseline statistics, define alert thresholds, and generate ADDM and ASH reports. In Oracle Database 11g you can configure, manage, and implement services to work with client applications using Database Resource Manager and the Scheduler. This course discusses the use of services for monitoring applications and demonstrates how to set performance-metric thresholds on services. It also explains how to configure services aggregation and tracing.
+TargetAudience=A range of in-training or established IT professionals; Database Administrators; Support Engineers; Technical Consultants.
+Duration=02:30
